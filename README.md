@@ -48,16 +48,18 @@ notebooks/
 └── tests
 ```
 * `notebooks` - the main directory for your notebooks
-* `assets` - here you store all different assets used in your notebooks (like image or other media files)
+* `assets` - here you store all different assets used in your notebooks (like images or other media files)
 * `downloads` - this directory will be used to store external files downloaded from internet (the content of this directory will not be pushed to the repository)
 * `output` - this directory will be storing all the results produced by your notebooks
 * `scripts` - your Python scripts and custom packages
-* `test` - Python test scripts
+* `tests` - Python test scripts
 
-## Workspace notebooks
+## Jupyter notebooks
 
-* [Face detection using Haar Feature-based Cascade Classifiers](http://nbviewer.jupyter.org/github/jagin/opencv-notebooks/blob/master/notebooks/face_recognition.ipynb): http://127.0.0.1:8888/notebooks/face_recognition.ipynb
-* [Convert video to gray scale using OpenCV](http://nbviewer.jupyter.org/github/jagin/opencv-notebooks/blob/master/notebooks/video_convert_to_gray.ipynb): http://127.0.0.1:8888/notebooks/video_convert_to_gray.ipynb
+| Notebook      | Local link      |
+| ------------- | --------------- |
+| [Face detection using Haar Feature-based Cascade Classifiers](http://nbviewer.jupyter.org/github/jagin/opencv-notebooks/blob/master/notebooks/face_recognition.ipynb) | http://127.0.0.1:8888/notebooks/face_recognition.ipynb |
+| [Convert video to gray scale using OpenCV](http://nbviewer.jupyter.org/github/jagin/opencv-notebooks/blob/master/notebooks/video_convert_to_gray.ipynb) | http://127.0.0.1:8888/notebooks/video_convert_to_gray.ipynb |
 
 ## Jupyter configuration
 
