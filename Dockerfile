@@ -83,14 +83,14 @@ RUN mkdir opencv-${OPENCV_VERSION}/build && \
 COPY .jupyter .jupyter
 
 # Install required python packages
-RUN mkdir workspace
-ADD requirements.txt workspace/requirements.txt
-RUN pip install -r workspace/requirements.txt
+RUN mkdir notebooks
+ADD requirements.txt notebooks/requirements.txt
+RUN pip install -r notebooks/requirements.txt
 
-# Populate workspace
-COPY workspace workspace
-WORKDIR /root/workspace
-ENV PYTHONPATH=/root/workspace
+# Populate notebooks
+COPY notebooks notebooks
+WORKDIR /root/notebooks
+ENV PYTHONPATH=/root/notebooks
 
 # Run tests
 RUN py.test tests/test_requirements.py
